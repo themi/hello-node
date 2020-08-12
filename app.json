@@ -1,0 +1,9 @@
+{
+  "name": "Hello Node",
+  "description": "Simple Hello World Node.js App",
+  "keywords": [
+    "Introduction",
+    "Javascript"
+  ],
+  "repository": "https://github.com/themi/hello-node"
+}
