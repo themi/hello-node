@@ -2,8 +2,13 @@
   "name": "Hello Node",
   "description": "Simple Hello World Node.js App",
   "keywords": [
-    "Introduction",
-    "Javascript"
+    "node",
+    "heroku",
+    "javascript"
   ],
-  "repository": "https://github.com/themi/hello-node"
+  "repository": "https://github.com/themi/hello-node",
+  "addons": ["heroku-postgresql:hobby-dev"],
+  "scripts": {
+      "test": "npm test"
+  }
 }
